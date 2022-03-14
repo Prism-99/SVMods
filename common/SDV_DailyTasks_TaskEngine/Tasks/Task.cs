@@ -14,9 +14,8 @@ namespace DailyTasksReport.Tasks
         internal IModHelper _helper;
         internal static TaskReportConfig _config;
 
-        //public bool Enabled;
         internal static readonly Dictionary<int, string> ObjectsNames = new Dictionary<int, string>();
-        protected bool Enabled = true;
+        public bool Enabled { get { return _Engine.Enabled; } }
         public string TaskClass { get { return _Engine.TaskClass; } }
         public string TaskSubClass { get { return _Engine.TaskSubClass; } }
         protected void FirstScan() { _Engine.FirstScan(); }

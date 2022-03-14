@@ -43,7 +43,7 @@
   //
   "tasks.misc.queen": "There's a new recipe on The Queen of Sauce.",
   "tasks.misc.merchant": "The traveling merchant is in town.",
-  "tasks.misc.birthday": "It's {{NPCName}} birthday!",
+  "tasks.misc.birthday": "It's {{NPCName}}'s birthday!",
   "tasks.misc.nohay": "You have no hay left.",
   "tasks.misc.hay": "You only have {{count}} hay left.",
   "tasks.misc.lastday": "It's the last day of the season, make sure to harvest all of your applicable crops.",
